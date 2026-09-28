@@ -1,0 +1,9 @@
+# Lecture → Markdown pipeline
+faster-whisper==1.2.1
+ctranslate2==4.8.2
+scenedetect==0.7.1
+ImageHash==4.3.2
+pillow==12.3.0
+# scenedetect pulls opencv-python (needs libgl1 in the image)
+# optional CLI used for the first lectures (audio/run.sh); transcribe.py does the same via the API
+whisper-ctranslate2==0.5.7
